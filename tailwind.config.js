@@ -5,6 +5,10 @@ module.exports = {
       fontSize: {
         sm: ['14px'],
       },
+      colors: {
+        starGreen: "#D4E9E2",
+        textGreen: "#1e3932",
+      },
     },
   },
   plugins: [],

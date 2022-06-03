@@ -10,8 +10,8 @@
   </head>
   <body>
     <!-- Menu -->
-    <header class="flex items-center">
-      <div class="w-full flex justify-between items-center p-2">
+    <header>
+      <div class="w-full flex justify-between items-center p-1">
         <div>
           <ul class="flex flex-row font-bold items-center text-sm">
             <svg
@@ -38,12 +38,87 @@
             <li class="px-2">GIFT CARDS</li>
           </ul>
         </div>
-        <div class="hidden lg:inline">
-          <ul>
-            <li>Find a Store</li>
+        <div>
+          <ul class="flex flex-row font-bold items-center text-sm">
+            <li class="px-2">Find a Store</li>
+            <li class="px-2">
+              <button
+                class="border-2 border-solid border-black rounded-full px-5 py-1 text-center font-bold"
+              >
+                Sign in
+              </button>
+            </li>
+            <li class="px-2">
+              <button
+                class="bg-black text-white border-2 border-solid border-black rounded-full px-5 py-1 text-center font-bold"
+              >
+                Join now
+              </button>
+            </li>
           </ul>
         </div>
       </div>
+      <div class="border my-6"></div>
     </header>
+
+    <!-- HERO SECTION -->
+    <main class="mx-auto my-0 max-w-[1440px] text-textGreen">
+      <div class="mt-10 mb-10 flex flex-col md:flex-row bg-starGreen">
+        <div class="flex-none md:w-6/12 relative">
+          <div
+            class="absolute w-full h-full bg-[url('/images/1.webp')] bg-contain bg-center bg-no-repeat"
+          ></div>
+        </div>
+        <img
+          src="/images/1.webp"
+          alt="Star Bucks Coffee Image"
+          class="md:hidden"
+        />
+        <div>
+          <div class="p-7 md:p-10 lg:p-16 xl:p-20 xl:py-12 text-center">
+            <p class="mb-4 text-[24px] font-bold">
+              We’re giving away 4 new Volvo XC40 Recharges
+            </p>
+            <p class="text-[19px]">
+              Starbucks® Summer Game is here—play for your chance to win the
+              grand prize, a new Volvo XC40 Recharge.*
+            </p>
+            <button
+              class="mt-10 border-2 border-solid border-black rounded-full px-5 py-1 text-center font-bold"
+            >
+              Let's play
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="flex flex-col lg:flex-row bg-starGreen">
+        <div class="flex-none md:w-6/12 relative">
+          <div
+            class="absolute w-full h-full bg-[url('/images/1.webp')] bg-contain bg-center bg-no-repeat"
+          ></div>
+        </div>
+        <img
+          src="/images/1.webp"
+          alt="Star Bucks Coffee Image"
+          class="lg:hidden"
+        />
+        <div>
+          <div class="p-10 sm:p-24 mx-12 text-center">
+            <p class="mb-4 text-[40px] font-bold">
+              Sign up for Starbucks Rewards
+            </p>
+            <p class="text-[24px]">
+              Starbucks® Summer Game is here—play for your chance to win the
+              grand prize, a new Volvo XC40 Recharge.*
+            </p>
+            <button
+              class="mt-10 border-2 border-solid border-black rounded-full px-5 py-1 text-center font-bold"
+            >
+              Let's play
+            </button>
+          </div>
+        </div>
+      </div>
+    </main>
   </body>
 </html>
