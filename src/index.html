@@ -11,7 +11,7 @@
   <body>
     <!-- Menu -->
     <header>
-      <div class="w-full flex justify-between items-center p-1">
+      <div class="w-full flex justify-between items-center p-1 shadow">
         <div>
           <ul class="flex flex-row font-bold items-center text-sm">
             <svg
@@ -58,7 +58,7 @@
           </ul>
         </div>
       </div>
-      <div class="border my-6"></div>
+      <!-- <div class="border my-6 shadow"></div> -->
     </header>
 
     <!-- HERO SECTION -->
@@ -87,7 +87,7 @@
               grand prize, a new Volvo XC40 Recharge.*
             </p>
             <button
-              class="mt-10 border-2 border-solid border-black rounded-full px-5 py-1 text-center font-bold"
+              class="mt-10 border-2 border-solid border-textGreen rounded-full px-5 py-1 text-center font-bold transition-all duration-200 hover:bg-greenHover"
             >
               Let's play
             </button>
@@ -96,7 +96,7 @@
       </div>
       <!-- Second Section -->
       <div
-        class="mt-10 mb-10 flex flex-col md:flex-row bg-darkPink text-gray-100"
+        class="mt-10 mb-10 flex flex-col md:flex-row-reverse bg-darkPink text-gray-100"
       >
         <div class="flex-none md:w-6/12 relative">
           <!-- <div
@@ -120,7 +120,7 @@
               a cloud of silky, chocolaty cold foam.
             </p>
             <button
-              class="mt-10 border-2 border-solid border-gray-100 rounded-full px-5 py-1 text-center font-bold"
+              class="mt-10 border-2 border-solid border-gray-100 rounded-full px-5 py-1 text-center font-bold transition-all duration-200 hover:bg-whiteHover"
             >
               Order now
             </button>
@@ -154,10 +154,31 @@
               lemonade.
             </p>
             <button
-              class="mt-10 border-2 border-solid border-textGreen rounded-full px-5 py-1 text-center font-bold"
+              class="mt-10 border-2 border-solid border-textGreen rounded-full px-5 py-1 text-center font-bold transition-all duration-200 hover:bg-greenHover"
             >
               Order now
             </button>
+          </div>
+        </div>
+      </div>
+      <!-- Announcement -->
+      <div class="mt-10 mb-10">
+        <div class="flex justify-center items-center">
+          <div
+            class="text-center max-w-[90%] md:max-w-[60%] text-sm text-black font-medium"
+          >
+            <p>
+              *NO PURCHASE NECESSARY. Participating stores only. Starbucks
+              Partners (employees) are not eligible to win prizes. Ends 6/17/22.
+              To play and for Official Rules, visit
+              <a href="https://www.starbuckssummergame.com/"
+                >starbuckssummergame.com/</a
+              >.
+            </p>
+            <p class="mt-6">
+              Entrants can receive a maximum of 2 plays per day, plus, bonus
+              opportunities to earn additional plays.
+            </p>
           </div>
         </div>
       </div>
