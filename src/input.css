@@ -10,3 +10,9 @@
 * {
   font-family: "NotoSansReg", sans-serif;
 }
+.active-btn .drop-btn {
+  transform: rotate(180deg);
+}
+.active-btn .ul {
+  display: inline;
+}
