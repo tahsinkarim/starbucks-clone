@@ -1,13 +1,16 @@
-// const btns = document.querySelectorAll(".drop-btn");
-// const ul = document.querySelectorAll(".ul");
+const menuBtn = document.getElementById("menu-btn");
+const navMenu = document.querySelector(".nav-menu");
+const hamburger = document.querySelector(".hamburger-menu");
+const hamburgerClose = document.querySelector(".hamburger-close");
 
 
 
-// btns.forEach(function(btn){
-//     btn.addEventListener('click', function(e){
-//         e.currentTarget.parentElement.parentElement.classList.toggle("active-btn");
-//     })
-// })
+menuBtn.addEventListener('click', function(){
+    navMenu.classList.toggle("active");
+    hamburger.classList.toggle("active");
+    hamburgerClose.classList.toggle("active");
+    })
+
 
 const question = document.querySelectorAll(".title-li");
 

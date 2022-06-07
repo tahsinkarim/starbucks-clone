@@ -16,3 +16,23 @@
 .active-btn .ul {
   display: inline;
 }
+.nav-menu {
+  display: none;
+}
+.hamburger-menu.active {
+  display: none;
+}
+.hamburger-close {
+  display: none;
+}
+.hamburger-close.active {
+  display: inline;
+}
+@media (min-width: 1024px) {
+  .nav-menu {
+    display: flex;
+  }
+}
+.nav-menu.active {
+  display: flex;
+}
