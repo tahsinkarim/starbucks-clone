@@ -16,9 +16,9 @@
 .active-btn .ul {
   display: inline;
 }
-.nav-menu {
+/* .nav-menu {
   display: none;
-}
+} */
 .hamburger-menu.active {
   display: none;
 }
@@ -35,6 +35,12 @@
 }
 .nav-menu.active {
   display: flex;
+  transform: translateX(0%);
+}
+@media (min-width: 1024px) {
+  .nav-menu {
+    transform: translateX(0%);
+  }
 }
 .nav-overlay {
   visibility: hidden;

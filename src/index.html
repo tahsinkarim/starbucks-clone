@@ -7,13 +7,17 @@
     <title>Starbucks Coffee Company</title>
     <link rel="icon" type="image/x-icon" href="../images/favicon.png" />
     <link rel="stylesheet" href="../dist/output.css" />
+    <script
+      defer
+      src="/node_modules/@fortawesome/fontawesome-free/js/all.js"
+    ></script>
   </head>
   <body class="body">
     <!-- Menu -->
     <header>
       <div class="flex justify-between items-center shadow">
         <div
-          class="px-2 py-3 md:py-4 lg:py-6 flex justify-between items-center mx-auto w-full max-w-[1440px]"
+          class="px-5 py-3 md:py-4 2xl:px-0 lg:py-6 flex justify-between items-center mx-auto w-full max-w-[1440px]"
         >
           <div class="flex">
             <!-- Logo -->
@@ -42,7 +46,7 @@
             </div>
           </div>
           <div
-            class="flex flex-col items-start fixed top-[74px] right-0 bottom-0 w-2/3 pt-10 z-20 bg-white gap-5 lg:bg-transparent lg:relative lg:top-0 lg:p-0 lg:flex-row lg:left-0 lg:justify-between lg:w-full nav-menu"
+            class="shadow-inner lg:shadow-none translate-x-full transition-transform duration-300 ease-in-out flex flex-col items-start fixed top-[72px] md:top-[79px] right-0 bottom-0 w-2/3 pt-10 z-20 bg-white gap-5 lg:bg-transparent lg:relative lg:top-0 lg:p-0 lg:flex-row lg:left-0 lg:justify-between lg:w-full nav-menu"
           >
             <div
               class="flex flex-col lg:flex-row font-bold items-center text-sm"
@@ -63,23 +67,29 @@
                 </ul>
               </div>
             </div>
+            <div class="border mx-6 w-[90%] lg:hidden"></div>
             <div class="lg:inline px-4">
               <ul
-                class="flex flex-col-reverse lg:flex-row font-bold items-center justify-center text-sm"
+                class="flex flex-col-reverse lg:flex-row lg:items-center font-bold text-sm"
               >
-                <li class="px-2 py-4 mt-4 lg:mt-0">Find a Store</li>
+                <li
+                  class="px-2 py-4 mt-2 lg:mt-0 lg:mr-4 flex items-center gap-2 hover:text-green-700"
+                >
+                  <span><i class="fa-solid fa-location-dot w-5 h-5"></i></span
+                  ><a href="#"> Find a Store</a>
+                </li>
                 <li>
                   <ul class="flex">
                     <li class="px-2">
                       <button
-                        class="border-2 border-solid border-black rounded-full px-5 py-1 text-center font-bold"
+                        class="border-2 border-solid border-black rounded-full px-5 py-1 text-center font-bold transition-all duration-200 hover:bg-signIn"
                       >
                         Sign in
                       </button>
                     </li>
                     <li class="px-2">
                       <button
-                        class="bg-black text-white border-2 border-solid border-black rounded-full px-5 py-1 text-center font-bold"
+                        class="bg-black text-white border-2 border-solid border-black rounded-full px-5 py-1 text-center font-bold transition-all duration-200 hover:bg-joinNow hover:border-joinNow"
                       >
                         Join now
                       </button>
@@ -147,7 +157,7 @@
         </div>
       </div>
       <div
-        class="nav-overlay fixed t-0 l-0 w-screen h-screen bg-overlay z-10"
+        class="nav-overlay fixed t-0 l-0 w-screen h-screen bg-overlay z-10 transition-all duration-300 ease-in-out lg:hidden"
       ></div>
       <!-- <div class="border my-6 shadow"></div> -->
     </header>
@@ -276,7 +286,9 @@
     </main>
     <div class="border my-6 shadow"></div>
     <footer class="pb-4">
-      <div class="mx-auto text-grayText px-8 2xl:px-0 2xl:max-w-[1440px]">
+      <div
+        class="mx-auto text-grayText px-5 md:px-6 2xl:px-0 2xl:max-w-[1440px]"
+      >
         <ul class="flex flex-col gap-8 lg:flex-row lg:gap-0">
           <li
             class="w-full lg:max-w-48 flex flex-col lg:justify-start title-li"

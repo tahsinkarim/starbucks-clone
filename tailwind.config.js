@@ -15,6 +15,8 @@ module.exports = {
         darkPink: "#F06464",
         lightPink: "#FA91AA",
         overlay: "rgba(0, 0, 0, 0.5)",
+        joinNow: "rgba(0,0,0,.7)",
+        signIn: "rgba(0, 0, 0, 0.09)",
         
       },
     },
