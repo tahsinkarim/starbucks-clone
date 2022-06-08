@@ -36,3 +36,14 @@
 .nav-menu.active {
   display: flex;
 }
+.nav-overlay {
+  visibility: hidden;
+  opacity: 0;
+}
+.nav-overlay.active {
+  visibility: visible;
+  opacity: 1;
+}
+.body.active {
+  overflow: hidden;
+}

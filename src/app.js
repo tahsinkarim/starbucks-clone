@@ -2,6 +2,9 @@ const menuBtn = document.getElementById("menu-btn");
 const navMenu = document.querySelector(".nav-menu");
 const hamburger = document.querySelector(".hamburger-menu");
 const hamburgerClose = document.querySelector(".hamburger-close");
+const navOverlay = document.querySelector(".nav-overlay");
+const body = document.querySelector(".body");
+
 
 
 
@@ -9,6 +12,8 @@ menuBtn.addEventListener('click', function(){
     navMenu.classList.toggle("active");
     hamburger.classList.toggle("active");
     hamburgerClose.classList.toggle("active");
+    navOverlay.classList.toggle("active");
+    body.classList.toggle("active");
     })
 
 

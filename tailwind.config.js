@@ -14,6 +14,7 @@ module.exports = {
         grayHover: "rgba(0, 0, 0, 0.87)",
         darkPink: "#F06464",
         lightPink: "#FA91AA",
+        overlay: "rgba(0, 0, 0, 0.5)",
         
       },
     },

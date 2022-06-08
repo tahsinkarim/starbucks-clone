@@ -8,7 +8,7 @@
     <link rel="icon" type="image/x-icon" href="../images/favicon.png" />
     <link rel="stylesheet" href="../dist/output.css" />
   </head>
-  <body>
+  <body class="body">
     <!-- Menu -->
     <header>
       <div class="flex justify-between items-center shadow">
@@ -42,7 +42,7 @@
             </div>
           </div>
           <div
-            class="flex flex-col items-start fixed top-[74px] bottom-0 left-[30%] pt-32 z-10 bg-white gap-5 lg:justify-between w-full nav-menu"
+            class="flex flex-col items-start fixed top-[74px] right-0 bottom-0 w-2/3 pt-10 z-20 bg-white gap-5 lg:bg-transparent lg:relative lg:top-0 lg:p-0 lg:flex-row lg:left-0 lg:justify-between lg:w-full nav-menu"
           >
             <div
               class="flex flex-col lg:flex-row font-bold items-center text-sm"
@@ -67,7 +67,7 @@
               <ul
                 class="flex flex-col-reverse lg:flex-row font-bold items-center justify-center text-sm"
               >
-                <li class="px-2 py-4">Find a Store</li>
+                <li class="px-2 py-4 mt-4 lg:mt-0">Find a Store</li>
                 <li>
                   <ul class="flex">
                     <li class="px-2">
@@ -146,6 +146,9 @@
           </div>
         </div>
       </div>
+      <div
+        class="nav-overlay fixed t-0 l-0 w-screen h-screen bg-overlay z-10"
+      ></div>
       <!-- <div class="border my-6 shadow"></div> -->
     </header>
 
