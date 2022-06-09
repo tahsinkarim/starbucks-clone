@@ -610,10 +610,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 100%;
 }
 
-.h-0 {
-  height: 0px;
-}
-
 .w-full {
   width: 100%;
 }
@@ -701,10 +697,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .gap-4 {
   gap: 1rem;
-}
-
-.overflow-hidden {
-  overflow: hidden;
 }
 
 .rounded-full {
@@ -1047,6 +1039,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .body.active {
   overflow: hidden;
+}
+
+.car-image {
+  background-image: url("/images/1.webp");
 }
 
 .hover\:border-joinNow:hover {

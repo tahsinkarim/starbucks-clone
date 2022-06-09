@@ -2,6 +2,9 @@ module.exports = {
   content: ['./docs/**/*.{html,js}'],
   theme: {
     extend: {
+      backgroundImage: {
+        'hero-image': "url('/images/1.webp')",
+      },
       fontSize: {
         sm: ['14px'],
       },
