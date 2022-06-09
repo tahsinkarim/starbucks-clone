@@ -54,5 +54,5 @@
   overflow: hidden;
 }
 .car-image {
-  background-image: url("/images/1.webp");
+  background-image: url("images/1.webp");
 }
